@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biología Marina</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #eef7fb;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+header h1 { font-size: 3em; }
+
+/* SECCIONES */
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 { color: #0077b6; }
+
+/* IMÁGENES */
+.img-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.img-section img {
+    width: 100%;
+    border-radius: 12px;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ACORDEÓN */
+.accordion {
+    background-color: white;
+    color: #0077b6;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.accordion:hover { background-color: #caf0f8; }
+
+.panel {
+    padding: 15px;
+    display: none;
+    background-color: white;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: #03045e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🌊 Biología Marina</h1>
+    <p>Explorando la vida en los océanos</p>
+</header>
+
+<section>
+    <h2>Vida en el Océano</h2>
+    <div class="img-section">
+        <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b">
+        <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29">
+        <img src="https://images.unsplash.com/photo-1520302630591-3a0d0bce19f7">
+    </div>
+</section>
+
+<section>
+    <h2>Preguntas y Respuestas</h2>
+
+<button class="accordion">1. ¿Qué es la biología marina?</button>
+<div class="panel"><p>La biología marina es la rama de la ciencia que estudia los organismos que viven en los océanos, incluyendo su comportamiento, adaptación, reproducción y relaciones con el entorno. También analiza los ecosistemas marinos y su importancia para la vida en la Tierra.</p></div>
+
+<button class="accordion">2. ¿Por qué son importantes los océanos?</button>
+<div class="panel"><p>Los océanos son fundamentales porque regulan el clima global, producen gran parte del oxígeno que respiramos y albergan una enorme biodiversidad. Además, proporcionan alimentos, recursos naturales y son esenciales para el equilibrio ecológico del planeta.</p></div>
+
+<button class="accordion">3. ¿Qué es el fitoplancton?</button>
+<div class="panel"><p>El fitoplancton está compuesto por microorganismos que realizan fotosíntesis en el agua. Son la base de la cadena alimenticia marina y producen una gran cantidad del oxígeno del planeta, siendo esenciales para la vida marina y terrestre.</p></div>
+
+<button class="accordion">4. ¿Qué es el zooplancton?</button>
+<div class="panel"><p>El zooplancton incluye pequeños organismos animales que flotan en el agua. Se alimentan de fitoplancton y sirven de alimento a especies más grandes. Son fundamentales en la transferencia de energía dentro de los ecosistemas marinos.</p></div>
+
+<button class="accordion">5. ¿Qué es un arrecife de coral?</button>
+<div class="panel"><p>Los arrecifes de coral son estructuras formadas por organismos vivos llamados corales. Estos ecosistemas albergan una gran diversidad de especies marinas y actúan como barreras naturales que protegen las costas de la erosión y el impacto de las olas.</p></div>
+
+<button class="accordion">6. ¿Qué es la bioluminiscencia?</button>
+<div class="panel"><p>La bioluminiscencia es la capacidad de ciertos organismos marinos de producir luz propia mediante reacciones químicas. Esta adaptación les permite atraer presas, defenderse de depredadores o comunicarse en las profundidades del océano.</p></div>
+
+<button class="accordion">7. ¿Cómo afecta el cambio climático?</button>
+<div class="panel"><p>El cambio climático provoca el aumento de la temperatura del agua, la acidificación del océano y la pérdida de hábitats. Esto afecta gravemente a los organismos marinos, alterando ecosistemas completos y poniendo en riesgo la biodiversidad.</p></div>
+
+<button class="accordion">8. ¿Qué es la cadena alimenticia marina?</button>
+<div class="panel"><p>Es el proceso mediante el cual la energía fluye entre los organismos marinos. Comienza con productores como el fitoplancton y continúa con consumidores como peces y depredadores, manteniendo el equilibrio del ecosistema.</p></div>
+
+<button class="accordion">9. ¿Qué es la zona abisal?</button>
+<div class="panel"><p>La zona abisal es una región profunda del océano donde no llega la luz solar. Los organismos que viven allí están adaptados a la oscuridad, la alta presión y las bajas temperaturas, presentando características únicas.</p></div>
+
+<button class="accordion">10. ¿Qué es la pesca sostenible?</button>
+<div class="panel"><p>La pesca sostenible consiste en capturar especies marinas de manera responsable, evitando la sobreexplotación y permitiendo la regeneración de las poblaciones. Busca mantener el equilibrio del ecosistema y asegurar recursos para el futuro.</p></div>
+
+<button class="accordion">11. ¿Cómo se adaptan los peces al agua?</button>
+<div class="panel"><p>Los peces tienen adaptaciones como branquias para respirar bajo el agua, aletas para nadar y cuerpos hidrodinámicos que reducen la resistencia. Estas características les permiten sobrevivir y moverse eficientemente en su entorno acuático.</p></div>
+
+<button class="accordion">12. ¿Qué es la salinidad?</button>
+<div class="panel"><p>La salinidad es la cantidad de sales disueltas en el agua del mar. Influye en la densidad del agua y en la distribución de los organismos marinos, ya que muchas especies requieren condiciones específicas para sobrevivir.</p></div>
+
+<button class="accordion">13. ¿Qué animales viven en el océano?</button>
+<div class="panel"><p>En el océano habitan peces, mamíferos marinos como ballenas, crustáceos, moluscos, corales y microorganismos. Cada uno ocupa un nicho ecológico específico y contribuye al equilibrio del ecosistema marino.</p></div>
+
+<button class="accordion">14. ¿Qué es la migración marina?</button>
+<div class="panel"><p>La migración marina es el desplazamiento de especies a través del océano en busca de alimento, reproducción o mejores condiciones ambientales. Ejemplos incluyen las ballenas y algunas especies de peces.</p></div>
+
+<button class="accordion">15. ¿Qué son las algas marinas?</button>
+<div class="panel"><p>Las algas son organismos fotosintéticos que viven en el agua. Producen oxígeno y sirven como alimento y refugio para muchas especies. Son fundamentales en los ecosistemas marinos y en la regulación del carbono.</p></div>
+
+<button class="accordion">16. ¿Qué es la presión oceánica?</button>
+<div class="panel"><p>La presión oceánica aumenta con la profundidad debido al peso del agua. Los organismos que viven en zonas profundas tienen adaptaciones especiales para resistir estas condiciones extremas sin sufrir daños.</p></div>
+
+<button class="accordion">17. ¿Cómo se comunican los animales marinos?</button>
+<div class="panel"><p>Muchos animales marinos utilizan sonidos, señales químicas o movimientos para comunicarse. Por ejemplo, las ballenas emiten cantos complejos que les permiten interactuar a largas distancias en el océano.</p></div>
+
+<button class="accordion">18. ¿Qué es la biodiversidad marina?</button>
+<div class="panel"><p>La biodiversidad marina se refiere a la variedad de especies que habitan en los océanos. Es fundamental para la estabilidad de los ecosistemas y para el funcionamiento adecuado de los procesos ecológicos.</p></div>
+
+<button class="accordion">19. ¿Qué es la contaminación marina?</button>
+<div class="panel"><p>La contaminación marina es la introducción de sustancias dañinas en el océano, como plásticos o químicos. Afecta gravemente a los organismos marinos y altera los ecosistemas, poniendo en riesgo la vida marina.</p></div>
+
+<button class="accordion">20. ¿Cómo proteger los océanos?</button>
+<div class="panel"><p>Podemos proteger los océanos reduciendo el uso de plásticos, promoviendo la pesca sostenible, evitando la contaminación y apoyando iniciativas de conservación. La educación y la conciencia ambiental son claves para su preservación.</p></div>
+
+</section>
+
+<footer>
+    <p>Proyecto educativo | Biología Marina 🌊</p>
+</footer>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        var panel = this.nextElementSibling;
+        panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+}
+</script>
+
+</body>
+  </html>
